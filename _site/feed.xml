@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-29T08:29:24+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">밤슈의 프로그래밍 세상</title><subtitle>빙글빙글 돌아가는 밤슈의 프로그래밍 세상
+</subtitle><author><name>밤슈</name></author><entry><title type="html">cpp 코딩 표준</title><link href="http://localhost:4000/cpp-coding-standard.html" rel="alternate" type="text/html" title="cpp 코딩 표준" /><published>2024-06-29T00:00:00+09:00</published><updated>2024-06-29T00:00:00+09:00</updated><id>http://localhost:4000/cpp-coding-standard</id><content type="html" xml:base="http://localhost:4000/cpp-coding-standard.html">&lt;p&gt;최종 수정: 2024-06-29&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;구조체/열거형 이름은 upper case와 snake case를 따른다.
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; struct SOME_STRUCTURE
+ {
+     // ...
+ };
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;클래스 이름은 pascal case를 따른다.
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; class SomeClass
+ {
+     // ...
+ };
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;인터페이스 선언 시 접두사 ‘I’를 붙인다.
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; class ISomeInterface
+ {
+     // ...
+ };
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;함수 이름은 pascal case를 따른다. 단, private 멤버 함수인 경우 camel case를 따른다.
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; void SomeFunction()
+ {
+     // ...
+ }
+
+ // private 멤버 함수
+ void someFunction() 
+ {
+     // ...
+ }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;지역 변수(매개 변수 포함)는 camel case를 따른다. 단, 멤버 변수인 경우 추가적으로 접두사 ‘m_‘을 붙인다.
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; void SomeFunction(const int a, const int b)
+ {
+     const int sum = a + b;
+ }
+
+ int m_someVariable; // 멤버 변수
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;bool 변수는 접두사 ‘b’를 붙인다.
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; bool bFound;
+ bool mb_found;  // private 멤버 변수
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;포인터 변수는 접두사 ‘p’를 붙인다.
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; int num = 10;
+ int* pNum = &amp;amp;num;
+ int** ppNum = &amp;amp;pNum;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;기본적으로 모든 변수는 const를 붙인다. 변경이 필요할 때 const를 없앤다.
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; const int num1 = 1;
+ const int num2 = 2;
+ int result = 3;
+
+ result += num1 + num2;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;모든 상수는 upper case와 snake case를 따른다. 단, 열거형인 경우 추가적으로 접두사로 열거형 이름을 붙인다.
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; #define WINDOW_WIDTH 8
+ constexpr int WINDOW_HEIGHT = 8;
+
+ enum ANIMAL_TYPE
+ {
+     ANIMAL_TYPE_MAMMAL,
+     ANIMAL_TYPE_REPTILE
+ };
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;goto 레이블명은 접두사 ‘lb_‘와 lower case, snake case를 따른다.
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; lb_exit_loop:
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;반환 값은 아래와 같은 의미를 지닌다.&lt;/p&gt;
+
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th style=&quot;text-align: center&quot;&gt;타입&lt;/th&gt;
+          &lt;th style=&quot;text-align: center&quot;&gt;의미&lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;void&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;절대 실패하지 않는다.&lt;/strong&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;bool&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;성공 시 &lt;strong&gt;true&lt;/strong&gt;, 실패 시 &lt;strong&gt;false&lt;/strong&gt;를 반환한다.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;void*&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;성공 시 &lt;strong&gt;유효한 주소&lt;/strong&gt;, 실패 시 &lt;strong&gt;nullptr&lt;/strong&gt;을 반환한다.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;나머지&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;함수에 따라 의미가 달라진다.&lt;/strong&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>밤슈</name></author><category term="coding-standard" /><summary type="html">최종 수정: 2024-06-29</summary></entry></feed>
