@@ -24,6 +24,14 @@ entries:
           show_more: true
           show_more_text: 더보기...
           show_more_url: coding-standard.html
+    
+      - title: 컴퓨터
+        post_list:
+          limit: 5
+          category: computer
+          show_more: true
+          show_more_text: 더보기...
+          show_more_url: computer.html
 
   - title: rss
     url: feed.xml
