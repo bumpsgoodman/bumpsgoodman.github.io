@@ -25,7 +25,10 @@ html { height: 100%; }
 
 body {
   color: black;
-  font-family: monospace;
+  @font-face {
+    font-family: D2Coding;
+    src: url('/_fonts/D2Coding.ttf') format('ttf');
+  }
   font-size: 16px;
   line-height: 1.4;
   margin: 0;
