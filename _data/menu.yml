@@ -12,26 +12,31 @@ entries:
     entries:
       - title: 전체보기
         post_list:
-          limit: 5
+          limit: 10
           show_more: true
           show_more_text: 더보기...
           show_more_url: archive.html
 
-      - title: 코딩 표준
+      - title: 잡담
         post_list:
-          limit: 5
-          category: coding-standard
+          category: random
           show_more: true
           show_more_text: 더보기...
-          show_more_url: coding-standard.html
-    
+          show_more_url: random.html
+
       - title: 컴퓨터
         post_list:
-          limit: 5
           category: computer
           show_more: true
           show_more_text: 더보기...
           show_more_url: computer.html
+
+      - title: 코딩 표준
+        post_list:
+          category: coding-standard
+          show_more: true
+          show_more_text: 더보기...
+          show_more_url: coding-standard.html
 
   - title: rss
     url: feed.xml

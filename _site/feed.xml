@@ -1,5 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-30T01:44:26+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">밤슈의 프로그래밍 세상</title><subtitle>빙글빙글 돌아가는 밤슈의 프로그래밍 세상
-</subtitle><author><name>밤슈</name></author><entry><title type="html">c++ 코딩 표준 (2024-06-29 수정)</title><link href="http://localhost:4000/cpp-coding-standard-copy.html" rel="alternate" type="text/html" title="c++ 코딩 표준 (2024-06-29 수정)" /><published>2024-06-29T00:00:00+09:00</published><updated>2024-06-29T00:00:00+09:00</updated><id>http://localhost:4000/cpp-coding-standard%20copy</id><content type="html" xml:base="http://localhost:4000/cpp-coding-standard-copy.html">&lt;h2 id=&quot;uwengine-c-코딩-표준&quot;&gt;UWEngine C++ 코딩 표준&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-30T02:11:13+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">밤슈의 프로그래밍 세상</title><subtitle>빙글빙글 돌아가는 밤슈의 프로그래밍 세상
+</subtitle><author><name>밤슈</name></author><entry><title type="html">블로그 이주했습니다.</title><link href="http://localhost:4000/move-blog.html" rel="alternate" type="text/html" title="블로그 이주했습니다." /><published>2024-06-30T00:00:00+09:00</published><updated>2024-06-30T00:00:00+09:00</updated><id>http://localhost:4000/move-blog</id><content type="html" xml:base="http://localhost:4000/move-blog.html">&lt;h2 id=&quot;네이버-블로그&quot;&gt;네이버 블로그&lt;/h2&gt;
+&lt;p&gt;내가 학습한거나 개발 일지를 작성하려고 블로그를 시작했다. 그리고 혹시라도 누군가에게 도움이 될 수도 있다 생각하기도 했다.&lt;/p&gt;
+
+&lt;p&gt;하지만 주로 개발 관련 글을 올리는 나에겐 네이버 블로그는 적절치 않았다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;소스 코드 가독성이 매우매우 좋지 않다.
+써 본 사람은 알겠지만 정말 가독성이 안 좋다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;개발을 하려는 사람은 어차피 네이버로 검색하지 않는다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;그래서 어떤 블로그로 옮길까 생각하다가..&lt;/p&gt;
+
+&lt;h2 id=&quot;github-page--jekyll&quot;&gt;GitHub Page + Jekyll&lt;/h2&gt;
+&lt;p&gt;다른 블로그들은 이런저런 단점들이 있어서 결국 귀찮지만 자유도가 높은 GitHub Page + Jekyll로 이동하게 됐다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/2024-06-30-move-blog/1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jekyllthemes.org/themes/no-style-please/&quot;&gt;no style, please&lt;/a&gt; 이 템플릿이 마음에 들어서 이걸 기반으로 커스텀했다.
+그리고 &lt;a href=&quot;https://giscus.app/ko&quot;&gt;giscus&lt;/a&gt;로 댓글까지 추가했다.&lt;/p&gt;
+
+&lt;p&gt;아마 디자인은 이정도까지 하고, 나중에 여러가지 해보고 싶은 것들을 추가할 것 같다.&lt;/p&gt;
+
+&lt;p&gt;마크다운으로 블로그 글을 작성하는건 귀찮지만 소스 코드 가독성 만큼은 최상이다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;혹시라도 GitHub Page로 블로그 만들기가 궁금한 사람이 있다면 포스팅하겠습니다.&lt;/p&gt;</content><author><name>밤슈</name></author><category term="random" /><summary type="html">네이버 블로그 내가 학습한거나 개발 일지를 작성하려고 블로그를 시작했다. 그리고 혹시라도 누군가에게 도움이 될 수도 있다 생각하기도 했다.</summary></entry><entry><title type="html">c++ 코딩 표준 (2024-06-29 수정)</title><link href="http://localhost:4000/cpp-coding-standard.html" rel="alternate" type="text/html" title="c++ 코딩 표준 (2024-06-29 수정)" /><published>2024-06-29T00:00:00+09:00</published><updated>2024-06-29T00:00:00+09:00</updated><id>http://localhost:4000/cpp-coding-standard</id><content type="html" xml:base="http://localhost:4000/cpp-coding-standard.html">&lt;h2 id=&quot;uwengine-c-코딩-표준&quot;&gt;UWEngine C++ 코딩 표준&lt;/h2&gt;
 
 &lt;p&gt;게임 엔진을 만들면서 한 번쯤 정리를 해야 할 것 같아 규칙을 조금씩 추가할 예정입니다.&lt;/p&gt;
 
