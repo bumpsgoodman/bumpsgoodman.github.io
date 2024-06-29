@@ -27,7 +27,7 @@ charset = utf-8
 
 이 방법은 윈도우 10부터 가능한건데 아래 사진에서 Beta: Use Unicode.... 이걸 체크하면 된다.
 
-![](../_images/2023-12-10-visual-studio-utf8/1.png)
+![](../assets/images/2023-12-10-visual-studio-utf8/1.png)
 
 이거 설정하면 VS에서 파일 생성 시, utf-8으로 바뀌게 된다.
 
@@ -41,7 +41,7 @@ BOM은 Byte Order Mark라는데 문서 맨 앞에 바이트 순서를 매직 넘
 
 utf-8은 아래 사진 처럼 0xEF 0xBB 0x BF가 추가 된다.
 
-![](../_images/2023-12-10-visual-studio-utf8/2.png)
+![](../assets/images/2023-12-10-visual-studio-utf8/2.png)
 
 without bom으로 저장되면 영문판에선 잘 작동하는데, 한글판에선 경고를 준다. 그래서 with bom으로 바꿔줘야 한다.
 

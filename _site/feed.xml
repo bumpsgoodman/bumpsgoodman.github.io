@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-30T00:48:44+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">밤슈의 프로그래밍 세상</title><subtitle>빙글빙글 돌아가는 밤슈의 프로그래밍 세상
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-30T01:04:10+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">밤슈의 프로그래밍 세상</title><subtitle>빙글빙글 돌아가는 밤슈의 프로그래밍 세상
 </subtitle><author><name>밤슈</name></author><entry><title type="html">c++ 코딩 표준 (2024-06-29 수정)</title><link href="http://localhost:4000/cpp-coding-standard-copy.html" rel="alternate" type="text/html" title="c++ 코딩 표준 (2024-06-29 수정)" /><published>2024-06-29T00:00:00+09:00</published><updated>2024-06-29T00:00:00+09:00</updated><id>http://localhost:4000/cpp-coding-standard%20copy</id><content type="html" xml:base="http://localhost:4000/cpp-coding-standard-copy.html">&lt;h2 id=&quot;수정-내역&quot;&gt;수정 내역&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;2024-06-29: 참조 문서 및 이름 관련 표준 작성&lt;/li&gt;
@@ -140,7 +140,7 @@ charset = utf-8
 
 &lt;p&gt;이 방법은 윈도우 10부터 가능한건데 아래 사진에서 Beta: Use Unicode…. 이걸 체크하면 된다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../_images/2023-12-10-visual-studio-utf8/1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/2023-12-10-visual-studio-utf8/1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;이거 설정하면 VS에서 파일 생성 시, utf-8으로 바뀌게 된다.&lt;/p&gt;
 
@@ -154,7 +154,7 @@ charset = utf-8
 
 &lt;p&gt;utf-8은 아래 사진 처럼 0xEF 0xBB 0x BF가 추가 된다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../_images/2023-12-10-visual-studio-utf8/2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/2023-12-10-visual-studio-utf8/2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;without bom으로 저장되면 영문판에선 잘 작동하는데, 한글판에선 경고를 준다. 그래서 with bom으로 바꿔줘야 한다.&lt;/p&gt;
 
