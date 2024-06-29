@@ -3,7 +3,9 @@ layout: page
 title: 소개
 ---
 
-강범수(bumpsgoodman), 프로그래머
+강범수(bumpsgoodman, 밤슈), 프로그래머
+
+C/C++, DirectX, Win32, x86 Assembly
 
 [이메일](mailto:bumpsgoodman@gmail.com)
 [깃허브](https://github.com/bumpsgoodman)
