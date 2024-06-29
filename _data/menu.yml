@@ -24,6 +24,13 @@ entries:
           show_more_text: 더보기...
           show_more_url: random.html
 
+      - title: c/c++
+        post_list:
+          category: c-cpp
+          show_more: true
+          show_more_text: 더보기...
+          show_more_url: c-cpp.html
+
       - title: 개발일지
         entries:
           - title: UWEngine
