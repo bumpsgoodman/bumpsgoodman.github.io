@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Windows 11에서 가상 데스크톱 전환 속도 문제
+title: visual studio 인코딩 문제 (utf-8)
 category: computer
 ---
 
