@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-30T00:10:04+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">밤슈의 프로그래밍 세상</title><subtitle>빙글빙글 돌아가는 밤슈의 프로그래밍 세상
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-30T00:47:52+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">밤슈의 프로그래밍 세상</title><subtitle>빙글빙글 돌아가는 밤슈의 프로그래밍 세상
 </subtitle><author><name>밤슈</name></author><entry><title type="html">c++ 코딩 표준 (2024-06-29 수정)</title><link href="http://localhost:4000/cpp-coding-standard-copy.html" rel="alternate" type="text/html" title="c++ 코딩 표준 (2024-06-29 수정)" /><published>2024-06-29T00:00:00+09:00</published><updated>2024-06-29T00:00:00+09:00</updated><id>http://localhost:4000/cpp-coding-standard%20copy</id><content type="html" xml:base="http://localhost:4000/cpp-coding-standard-copy.html">&lt;h2 id=&quot;수정-내역&quot;&gt;수정 내역&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;2024-06-29: 참조 문서 및 이름 관련 표준 작성&lt;/li&gt;
@@ -118,7 +118,76 @@
       &lt;/tbody&gt;
     &lt;/table&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>밤슈</name></author><category term="coding-standard" /><summary type="html">수정 내역 2024-06-29: 참조 문서 및 이름 관련 표준 작성</summary></entry><entry><title type="html">Windows 11에서 가상 데스크톱 전환 속도 문제</title><link href="http://localhost:4000/windows11-slow-virtual-desktop.html" rel="alternate" type="text/html" title="Windows 11에서 가상 데스크톱 전환 속도 문제" /><published>2023-06-19T00:00:00+09:00</published><updated>2023-06-19T00:00:00+09:00</updated><id>http://localhost:4000/windows11-slow-virtual-desktop</id><content type="html" xml:base="http://localhost:4000/windows11-slow-virtual-desktop.html">&lt;p&gt;어느 순간부터 Windows 11에서 가상 데스크톱을 전환할 때 굉장히 느려졌다. 지금까진 신경 안 쓰다가 한 데스크톱에 창이 많아져서 전환하면서 작업을 했는데 너무 느려서 짜증남..&lt;/p&gt;
+&lt;/ol&gt;</content><author><name>밤슈</name></author><category term="coding-standard" /><summary type="html">수정 내역 2024-06-29: 참조 문서 및 이름 관련 표준 작성</summary></entry><entry><title type="html">Windows 11에서 가상 데스크톱 전환 속도 문제</title><link href="http://localhost:4000/visual-studio-utf8.html" rel="alternate" type="text/html" title="Windows 11에서 가상 데스크톱 전환 속도 문제" /><published>2023-12-10T00:00:00+09:00</published><updated>2023-12-10T00:00:00+09:00</updated><id>http://localhost:4000/visual-studio-utf8</id><content type="html" xml:base="http://localhost:4000/visual-studio-utf8.html">&lt;p&gt;한글 visual studio로 파일을 만들면 cp949로 인코딩이 된다. 이게 깃허브나 visual studio code 같은 곳에서 읽어 들일 때, 한글 주석들이 깨져 보인다.&lt;/p&gt;
+
+&lt;p&gt;그래서 visual studio에서 utf-8으로 인코딩하는 방법을 찾아봤는데, 두 가지 정도 방법이 있다.
+​&lt;/p&gt;
+&lt;h2 id=&quot;editorconfig-파일-생성&quot;&gt;.editorconfig 파일 생성&lt;/h2&gt;
+
+&lt;p&gt;.editorconfig를 만들어서 utf-8으로 설정하면 된다고 한다.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[*]
+charset = utf-8
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;근데 이미 cp949로 인코딩 된 수십개의 파일은 바꿀 수 없다… 찾아보니 이런 좋은게 있었다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blog.naver.com/goofygod/110024510522&quot;&gt;파일 인코딩 일괄 변경 프로그램. : 네이버 블로그 (naver.com)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;이분 덕분에 안도의 한숨을… 2007년도 글인데 다들 고맙다고 2023년까지 댓글이 달린다 ㅋㅋㅋㅋㅋ 내가 만들어야 하나 고민했는데 다행히 이미 있다..&lt;/p&gt;
+
+&lt;h2 id=&quot;system-locale-설정&quot;&gt;system locale 설정&lt;/h2&gt;
+
+&lt;p&gt;이 방법은 윈도우 10부터 가능한건데 아래 사진에서 Beta: Use Unicode…. 이걸 체크하면 된다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../_images/2023-12-10-visual-studio-utf8/1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이거 설정하면 VS에서 파일 생성 시, utf-8으로 바뀌게 된다.&lt;/p&gt;
+
+&lt;p&gt;근데 이건 큰 문제가 있다.
+​
+무슨 문제냐면, 이거 설정하고 다른 컴퓨터에서 컴파일하면 인코딩 문제로 경고가 엄청나게 뜬다. 원인은 utf-8 without bom으로 만들어지기 때문이다.&lt;/p&gt;
+
+&lt;h2 id=&quot;utf-8-without-bom-vs-utf-8-with-bom&quot;&gt;utf-8 without bom vs utf-8 with bom&lt;/h2&gt;
+
+&lt;p&gt;BOM은 Byte Order Mark라는데 문서 맨 앞에 바이트 순서를 매직 넘버로 써넣는 것이다.&lt;/p&gt;
+
+&lt;p&gt;utf-8은 아래 사진 처럼 0xEF 0xBB 0x BF가 추가 된다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../_images/2023-12-10-visual-studio-utf8/2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;without bom으로 저장되면 영문판에선 잘 작동하는데, 한글판에선 경고를 준다. 그래서 with bom으로 바꿔줘야 한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;editorconfig-vs-system-locale-설정&quot;&gt;.editorconfig vs system locale 설정&lt;/h2&gt;
+
+&lt;p&gt;후자도 결국 with bom으로 저장하려면 .editorconfig를 통해 다음과 같이 설정해야 한다.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[*]
+charset = utf-8-bom
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;그러니까 그냥 .editorconfig에 바로 위 설정을 넣어주도록 하자.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;하지만 여기서 매크로 어셈블러로 어셈블리 작성 시 문제가 발생한다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;visual-studio에서-x64-어셈블리-프로그래밍-시-문제점&quot;&gt;Visual Studio에서 x64 어셈블리 프로그래밍 시 문제점&lt;/h2&gt;
+
+&lt;p&gt;Visual Studio에서 x64 어셈블리 프로그래밍을 하려면 .asm 파일을 만들고, 매크로 어셈블러로 어셈블해서 나온걸 링크 해줘야 한다.&lt;/p&gt;
+
+&lt;p&gt;ml64로 어셈블할 때, utf-8 with bom으로 되어 있으면 인코딩 문제로 어셈블되지 않는다….&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;그래서 최종적인 .editorconfig는 다음과 같다.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[*]
+charset = utf-8-bom
+
+[*.asm]
+charset = utf-8
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;이러면 어셈 파일만 따로 utf-8 without bom 형태로 저장된다.&lt;/p&gt;</content><author><name>밤슈</name></author><category term="computer" /><summary type="html">한글 visual studio로 파일을 만들면 cp949로 인코딩이 된다. 이게 깃허브나 visual studio code 같은 곳에서 읽어 들일 때, 한글 주석들이 깨져 보인다.</summary></entry><entry><title type="html">Windows 11에서 가상 데스크톱 전환 속도 문제</title><link href="http://localhost:4000/windows11-slow-virtual-desktop.html" rel="alternate" type="text/html" title="Windows 11에서 가상 데스크톱 전환 속도 문제" /><published>2023-06-19T00:00:00+09:00</published><updated>2023-06-19T00:00:00+09:00</updated><id>http://localhost:4000/windows11-slow-virtual-desktop</id><content type="html" xml:base="http://localhost:4000/windows11-slow-virtual-desktop.html">&lt;p&gt;어느 순간부터 Windows 11에서 가상 데스크톱을 전환할 때 굉장히 느려졌다. 지금까진 신경 안 쓰다가 한 데스크톱에 창이 많아져서 전환하면서 작업을 했는데 너무 느려서 짜증남..&lt;/p&gt;
 
 &lt;p&gt;검색해봤는데 &lt;a href=&quot;https://techcommunity.microsoft.com/t5/windows-insider-program/slow-virtual-desktop-switching-on-windows-11/m-p/2711164&quot;&gt;여기&lt;/a&gt;에서 해결 방법을 찾았다.&lt;/p&gt;
 
