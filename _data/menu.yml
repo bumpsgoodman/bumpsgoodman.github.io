@@ -8,7 +8,7 @@ entries:
   - title: 방명록
     url: guest-book
 
-  - title: 게시글
+  - title: 카테고리
     entries:
       - title: 전체보기
         post_list:
