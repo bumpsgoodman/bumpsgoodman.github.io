@@ -12,7 +12,7 @@ category: coding-standard
 
 ## 코딩 표준
 1. 구조체/열거형 이름은 upper case와 snake case를 따른다.
-    ```
+    ```cpp
     struct SOME_STRUCTURE
     {
         // ...
@@ -20,7 +20,7 @@ category: coding-standard
     ```
 
 1. 클래스 이름은 pascal case를 따른다.
-    ```
+    ```cpp
     class SomeClass
     {
         // ...
@@ -28,7 +28,7 @@ category: coding-standard
     ```
 
 1. 인터페이스 선언 시 접두사 'I'를 붙인다.
-    ```
+    ```cpp
     class ISomeInterface
     {
         // ...
@@ -36,7 +36,7 @@ category: coding-standard
     ```
 
 1. 함수 이름은 pascal case를 따른다. 단, private 멤버 함수인 경우 camel case를 따른다.
-    ```
+    ```cpp
     void SomeFunction()
     {
         // ...
@@ -50,7 +50,7 @@ category: coding-standard
     ```
 
 1. 지역 변수(매개 변수 포함)는 camel case를 따른다. 단, 멤버 변수인 경우 추가적으로 접두사 'm_'을 붙인다.
-    ```
+    ```cpp
     void SomeFunction(const int a, const int b)
     {
         const int sum = a + b;
@@ -60,20 +60,20 @@ category: coding-standard
     ```
 
 1. bool 변수는 접두사 'b'를 붙인다.
-    ```
+    ```cpp
     bool bFound;
     bool mb_found;  // private 멤버 변수
     ```
 
 1. 포인터 변수는 접두사 'p'를 붙인다.
-    ```
+    ```cpp
     int num = 10;
     int* pNum = &num;
     int** ppNum = &pNum;
     ```
 
 1. 기본적으로 모든 변수는 const를 붙인다. 변경이 필요할 때 const를 없앤다.
-    ```
+    ```cpp
     const int num1 = 1;
     const int num2 = 2;
     int result = 3;
@@ -82,7 +82,7 @@ category: coding-standard
     ```
 
 1. 모든 상수는 upper case와 snake case를 따른다. 단, 열거형인 경우 추가적으로 접두사로 열거형 이름을 붙인다.
-    ```
+    ```cpp
     #define WINDOW_WIDTH 8
     constexpr int WINDOW_HEIGHT = 8;
 
@@ -94,7 +94,7 @@ category: coding-standard
     ```
 
 1. goto 레이블명은 접두사 'lb_'와 lower case, snake case를 따른다.
-    ```
+    ```cpp
     lb_exit_loop:
     ```
 

@@ -2,6 +2,12 @@
 layout: default
 ---
 <header>
+  <h1 style="display: flex; align-items: center;">
+    <img src="..\logo.png" alt="Title Image" style="margin-right: 1px;" width="10%" height="auto">
+    {{ site.title }}
+    <img src="..\logo.png" alt="Title Image" style="margin-left: 1px;" width="10%" height="auto">
+</h1>
+
   {%-if site.theme_config.show_description-%}
     <p>{{ site.description }}</p>
   {%-endif-%}
