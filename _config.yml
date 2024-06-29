@@ -25,11 +25,10 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-timezone
-
+  
 markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-timezone: "Asia/Seoul"
+timezone: Asia/Seoul
