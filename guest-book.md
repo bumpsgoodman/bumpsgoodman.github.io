@@ -1,21 +1,9 @@
 ---
-layout: default
+layout: page
+title: 방명록
 ---
 
-{%-include back_link.html-%}
-
-<article>
-  <p class="post-meta">
-    <time datetime="{{ page.date }}">{{ page.date | date: site.theme_config.date_format }}</time>
-  </p>
-  
-  <h1>{{ page.title }}</h1>
-
-  {{ content }}
-
-  <br><br><br><br><br><br><br><br><br><br>
-
-  <div>
+<div>
     <script src="https://giscus.app/client.js"
         data-repo="bumpsgoodman/bumpsgoodman.github.io"
         data-repo-id="R_kgDOMPdwZw"
@@ -32,4 +20,3 @@ layout: default
         async>
     </script>
   </div>
-</article>

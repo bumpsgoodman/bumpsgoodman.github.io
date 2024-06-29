@@ -1,6 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-29T15:51:32+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">밤슈의 프로그래밍 세상</title><subtitle>빙글빙글 돌아가는 밤슈의 프로그래밍 세상
-</subtitle><author><name>밤슈</name></author><entry><title type="html">cpp 코딩 표준 (최종 수정 2024-06-29)</title><link href="http://localhost:4000/cpp-coding-standard.html" rel="alternate" type="text/html" title="cpp 코딩 표준 (최종 수정 2024-06-29)" /><published>2024-06-29T00:00:00+09:00</published><updated>2024-06-29T00:00:00+09:00</updated><id>http://localhost:4000/cpp-coding-standard</id><content type="html" xml:base="http://localhost:4000/cpp-coding-standard.html">&lt;p&gt;최종 수정: 2024-06-29&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-29T16:39:28+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">밤슈의 프로그래밍 세상</title><subtitle>빙글빙글 돌아가는 밤슈의 프로그래밍 세상
+</subtitle><author><name>밤슈</name></author><entry><title type="html">cpp 코딩 표준 (2024-06-29 수정)</title><link href="http://localhost:4000/cpp-coding-standard.html" rel="alternate" type="text/html" title="cpp 코딩 표준 (2024-06-29 수정)" /><published>2024-06-29T00:00:00+09:00</published><updated>2024-06-29T00:00:00+09:00</updated><id>http://localhost:4000/cpp-coding-standard</id><content type="html" xml:base="http://localhost:4000/cpp-coding-standard.html">&lt;h2 id=&quot;수정-내역&quot;&gt;수정 내역&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;2024-06-29: 참조 문서 및 이름 관련 표준 작성&lt;/li&gt;
+&lt;/ul&gt;
 
+&lt;h2 id=&quot;참조문서&quot;&gt;참조문서&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.popekim.com/ko/coding-standards/cpp&quot;&gt;C++ 코딩 표준 - Pope Kim&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;코딩-표준&quot;&gt;코딩 표준&lt;/h2&gt;
 &lt;ol&gt;
   &lt;li&gt;구조체/열거형 이름은 upper case와 snake case를 따른다.
     &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; struct SOME_STRUCTURE
@@ -109,4 +118,4 @@
       &lt;/tbody&gt;
     &lt;/table&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>밤슈</name></author><category term="coding-standard" /><summary type="html">최종 수정: 2024-06-29</summary></entry></feed>
+&lt;/ol&gt;</content><author><name>밤슈</name></author><category term="coding-standard" /><summary type="html">수정 내역 2024-06-29: 참조 문서 및 이름 관련 표준 작성</summary></entry></feed>

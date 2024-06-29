@@ -5,6 +5,9 @@ entries:
   - title: 소개
     url: about
 
+  - title: 방명록
+    url: guest-book
+
   - title: 게시글
     entries:
       - title: 전체보기

@@ -1,11 +1,16 @@
 ---
 layout: post
-title: cpp 코딩 표준 (최종 수정 2024-06-29)
+title: cpp 코딩 표준 (2024-06-29 수정)
 category: coding-standard
 ---
 
-최종 수정: 2024-06-29
+## 수정 내역
+- 2024-06-29: 참조 문서 및 이름 관련 표준 작성
 
+## 참조문서
+- [C++ 코딩 표준 - Pope Kim](https://docs.popekim.com/ko/coding-standards/cpp)
+
+## 코딩 표준
 1. 구조체/열거형 이름은 upper case와 snake case를 따른다.
     ```
     struct SOME_STRUCTURE
