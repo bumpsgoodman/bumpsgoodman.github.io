@@ -1,6 +1,6 @@
 ---
 layout: post
-title: cpp 코딩 표준
+title: cpp 코딩 표준 (최종 수정 - 2024-06-29)
 category: coding-standard
 ---
 
