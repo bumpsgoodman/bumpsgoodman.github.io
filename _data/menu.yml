@@ -20,37 +20,32 @@ entries:
       - title: 잡담
         post_list:
           category: random
-          show_more: true
           show_more_text: 더보기...
           show_more_url: random.html
 
       - title: c/c++
         post_list:
           category: c-cpp
-          show_more: true
           show_more_text: 더보기...
           show_more_url: c-cpp.html
 
       - title: 개발일지
         entries:
-          - title: UWEngine
+          - title: uwengine
             post_list:
               category: devlog-uwengine
-              show_more: true
               show_more_text: 더보기...
               show_more_url: devlog-uwengine.html
 
       - title: 컴퓨터
         post_list:
           category: computer
-          show_more: true
           show_more_text: 더보기...
           show_more_url: computer.html
 
       - title: 코딩 표준
         post_list:
           category: coding-standard
-          show_more: true
           show_more_text: 더보기...
           show_more_url: coding-standard.html
 
