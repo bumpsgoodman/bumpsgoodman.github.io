@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-30T02:11:13+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">밤슈의 프로그래밍 세상</title><subtitle>빙글빙글 돌아가는 밤슈의 프로그래밍 세상
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-30T03:01:57+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">밤슈의 프로그래밍 세상</title><subtitle>빙글빙글 돌아가는 밤슈의 프로그래밍 세상
 </subtitle><author><name>밤슈</name></author><entry><title type="html">블로그 이주했습니다.</title><link href="http://localhost:4000/move-blog.html" rel="alternate" type="text/html" title="블로그 이주했습니다." /><published>2024-06-30T00:00:00+09:00</published><updated>2024-06-30T00:00:00+09:00</updated><id>http://localhost:4000/move-blog</id><content type="html" xml:base="http://localhost:4000/move-blog.html">&lt;h2 id=&quot;네이버-블로그&quot;&gt;네이버 블로그&lt;/h2&gt;
 &lt;p&gt;내가 학습한거나 개발 일지를 작성하려고 블로그를 시작했다. 그리고 혹시라도 누군가에게 도움이 될 수도 있다 생각하기도 했다.&lt;/p&gt;
 
@@ -30,11 +30,27 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;혹시라도 GitHub Page로 블로그 만들기가 궁금한 사람이 있다면 포스팅하겠습니다.&lt;/p&gt;</content><author><name>밤슈</name></author><category term="random" /><summary type="html">네이버 블로그 내가 학습한거나 개발 일지를 작성하려고 블로그를 시작했다. 그리고 혹시라도 누군가에게 도움이 될 수도 있다 생각하기도 했다.</summary></entry><entry><title type="html">c++ 코딩 표준 (2024-06-29 수정)</title><link href="http://localhost:4000/cpp-coding-standard.html" rel="alternate" type="text/html" title="c++ 코딩 표준 (2024-06-29 수정)" /><published>2024-06-29T00:00:00+09:00</published><updated>2024-06-29T00:00:00+09:00</updated><id>http://localhost:4000/cpp-coding-standard</id><content type="html" xml:base="http://localhost:4000/cpp-coding-standard.html">&lt;h2 id=&quot;uwengine-c-코딩-표준&quot;&gt;UWEngine C++ 코딩 표준&lt;/h2&gt;
+&lt;p&gt;혹시라도 GitHub Page로 블로그 만들기가 궁금한 사람이 있다면 포스팅하겠습니다.&lt;/p&gt;</content><author><name>밤슈</name></author><category term="random" /><summary type="html">네이버 블로그 내가 학습한거나 개발 일지를 작성하려고 블로그를 시작했다. 그리고 혹시라도 누군가에게 도움이 될 수도 있다 생각하기도 했다.</summary></entry><entry><title type="html">uwengine 소개</title><link href="http://localhost:4000/intro-uwengine-devlog.html" rel="alternate" type="text/html" title="uwengine 소개" /><published>2024-06-30T00:00:00+09:00</published><updated>2024-06-30T00:00:00+09:00</updated><id>http://localhost:4000/intro-uwengine-devlog</id><content type="html" xml:base="http://localhost:4000/intro-uwengine-devlog.html">&lt;h2 id=&quot;uwengine&quot;&gt;UWEngine&lt;/h2&gt;
+&lt;p&gt;UWEngine은 나중에 만들게 될 MMORPG의 자체 게임 엔진이다.
+아직 많은 어려움에 개발이 더디지만 조금씩 만들어 가고 있다.&lt;/p&gt;
+
+&lt;p&gt;C/C++, Win32, Direct3D 11 기반으로 작성 되었으며, 이후에 Direct3D 12까지 지원할 예정이다.&lt;/p&gt;
+
+&lt;p&gt;엔진 구조나 구현 방식 등은 해당 유튜브 영상&lt;a href=&quot;https://www.youtube.com/live/U1SwXXcKzNU?si=bGn04Typqx_SSXFi&quot;&gt;(나만의 게임 엔진 개발하기 - 유영천)&lt;/a&gt;을 기반으로 작성 되었다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;엔진의 구조는 아래와 같다.&lt;/p&gt;
+
+&lt;p&gt;현재 3ds Max에서 모델을 자체 포맷(.uwmesh, .uwbone)으로 익스포트하여 엔진에서 불러올 수 있다.&lt;/p&gt;
+
+&lt;p&gt;(사진 추가 예정)&lt;/p&gt;
+
+&lt;p&gt;(미완성 - 이후에 글 추가 예정)&lt;/p&gt;</content><author><name>밤슈</name></author><category term="devlog-uwengine" /><summary type="html">UWEngine UWEngine은 나중에 만들게 될 MMORPG의 자체 게임 엔진이다. 아직 많은 어려움에 개발이 더디지만 조금씩 만들어 가고 있다.</summary></entry><entry><title type="html">c++ 코딩 표준 (2024-06-29 수정)</title><link href="http://localhost:4000/cpp-coding-standard.html" rel="alternate" type="text/html" title="c++ 코딩 표준 (2024-06-29 수정)" /><published>2024-06-29T00:00:00+09:00</published><updated>2024-06-29T00:00:00+09:00</updated><id>http://localhost:4000/cpp-coding-standard</id><content type="html" xml:base="http://localhost:4000/cpp-coding-standard.html">&lt;h2 id=&quot;uwengine-c-코딩-표준&quot;&gt;UWEngine C++ 코딩 표준&lt;/h2&gt;
 
 &lt;p&gt;게임 엔진을 만들면서 한 번쯤 정리를 해야 할 것 같아 규칙을 조금씩 추가할 예정입니다.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;언제든 수정될 문서입니다.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;언제든 수정될 문서입니다.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;수정-내역&quot;&gt;수정 내역&lt;/h2&gt;
 &lt;ul&gt;

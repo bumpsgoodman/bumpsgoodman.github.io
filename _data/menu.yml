@@ -24,6 +24,15 @@ entries:
           show_more_text: 더보기...
           show_more_url: random.html
 
+      - title: 개발일지
+        entries:
+          - title: UWEngine
+            post_list:
+              category: devlog-uwengine
+              show_more: true
+              show_more_text: 더보기...
+              show_more_url: devlog-uwengine.html
+
       - title: 컴퓨터
         post_list:
           category: computer
