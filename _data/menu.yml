@@ -55,5 +55,11 @@ entries:
           show_more_text: 더보기...
           show_more_url: coding-standard.html
 
+      - title: 러닝
+        post_list:
+          category: running
+          show_more_text: 더보기...
+          show_more_url: running.html
+
   - title: rss
     url: feed.xml
