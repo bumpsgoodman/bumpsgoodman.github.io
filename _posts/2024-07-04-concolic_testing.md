@@ -32,6 +32,9 @@ Concolic 테스팅은 현재 추출한 SPF 안의 어떤 조건 구문을 부정
 
 그리고 Concolic 테스팅을 하기 위해선 테스트 하고자 하는 프로그램의 소스 코드가 필요하다.
 
+## 출처
+[동적 심볼릭 테스팅(Concolic 테스팅): 효과적인 오류 검출을 위한 실용적인 Whitebox 테스트 입력 생성 기법](https://swtv.kaist.ac.kr/publications/c815bcf4acfcd559d68cc9c0-concolicd14cc2a4d305.pdf)
+
 ---
 
 자동으로 모든 테스트를 한다는게 대단하지만 엄청나게 느릴 것이다. 이 분야에서 필요한 것은 엄청난 최적화인데 내가 할 수 있을까?
