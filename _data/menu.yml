@@ -23,6 +23,12 @@ entries:
           show_more_text: 더보기...
           show_more_url: random.html
 
+      - title: 소프트웨어 테스팅
+        post_list:
+          category: software-testing
+          show_more_text: 더보기...
+          show_more_url: software-testing.html
+
       - title: c/c++
         post_list:
           category: c-cpp
