@@ -37,11 +37,11 @@ entries:
 
       - title: 개발일지
         entries:
-          - title: uwengine
+          - title: safe99
             post_list:
-              category: devlog-uwengine
+              category: devlog-safe99
               show_more_text: 더보기...
-              show_more_url: devlog-uwengine.html
+              show_more_url: devlog-safe99.html
 
       - title: 컴퓨터
         post_list:
