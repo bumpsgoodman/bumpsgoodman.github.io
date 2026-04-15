@@ -23,43 +23,13 @@ entries:
           show_more_text: 더보기...
           show_more_url: random.html
 
-      - title: 소프트웨어 테스팅
-        post_list:
-          category: software-testing
-          show_more_text: 더보기...
-          show_more_url: software-testing.html
-
-      - title: c/c++
-        post_list:
-          category: c-cpp
-          show_more_text: 더보기...
-          show_more_url: c-cpp.html
-
       - title: 개발일지
         entries:
-          - title: safe99
+          - title: 영수증 처리 자동화
             post_list:
-              category: devlog-safe99
+              category: receipt-automation
               show_more_text: 더보기...
-              show_more_url: devlog-safe99.html
-
-      - title: 컴퓨터
-        post_list:
-          category: computer
-          show_more_text: 더보기...
-          show_more_url: computer.html
-
-      - title: 코딩 표준
-        post_list:
-          category: coding-standard
-          show_more_text: 더보기...
-          show_more_url: coding-standard.html
-
-      - title: 러닝
-        post_list:
-          category: running
-          show_more_text: 더보기...
-          show_more_url: running.html
-
+              show_more_url: receipt-automation.html
+          
   - title: rss
     url: feed.xml
