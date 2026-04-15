@@ -9,3 +9,4 @@ gem "jekyll-sitemap"
 gem "kramdown-parser-gfm"
 gem "tzinfo", "~> 2.0"
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw]
+gem "jektex"
