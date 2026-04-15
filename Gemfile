@@ -1,14 +1,11 @@
-# frozen_string_literal: true
-
 source "https://rubygems.org"
 
-gem "kramdown-parser-gfm"
-
-gemspec
+gem "jekyll"
 gem "webrick", "~> 1.8"
-
-gem "tzinfo", "~> 2.0"
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
-
-gem 'jekyll-sitemap'
 gem "jekyll-remote-theme"
+gem "jekyll-feed"
+gem "jekyll-seo-tag"
+gem "jekyll-sitemap"
+gem "kramdown-parser-gfm"
+gem "tzinfo", "~> 2.0"
+gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw]
